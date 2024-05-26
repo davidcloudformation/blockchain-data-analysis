@@ -1,0 +1,11 @@
+type Swap @entity {
+  id: ID!
+  pair: String!
+  sender: Bytes!
+  amount0In: BigInt!
+  amount1In: BigInt!
+  amount0Out: BigInt!
+  amount1Out: BigInt!
+  to: Bytes!
+  timestamp: BigInt!
+}
